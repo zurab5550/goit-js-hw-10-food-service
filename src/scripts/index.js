@@ -1,6 +1,5 @@
 import cards from "./menu.json"
 import cardCreateFunction from "../html/templates/card.hbs"
-// import { brotliDecompressSync } from "zlib"
 
 const cardList = document.querySelector(".js-menu")
 const cardHTMLTemplate = cardCreateFunction(cards)
